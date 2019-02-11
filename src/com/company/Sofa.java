@@ -71,7 +71,7 @@ public class Sofa {
         System.out.println(" Number of pillows: " + pillows);
 
     }
-    public void printFieldPillows() {
+    public void printPillows() {
         System.out.println(" Number of pillows: " + pillows);
     }
 

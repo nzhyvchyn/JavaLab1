@@ -39,8 +39,8 @@ public class Sofa {
         this.length = length;
         this.width = width;
         this.color = color;
-
     }
+
     public Sofa(String firm, int length, int width,
                 String color, int height,
                 String material, int pillows,
@@ -55,22 +55,24 @@ public class Sofa {
     }
 
     public String toString () {
-        System.out.println("Firm name: " + firm);
-        System.out.println("Length: " + length);
-        System.out.println("Width: " + width);
-        System.out.println("Color: " + color);
-        System.out.println("Height: " + height);
-        System.out.println("Material: " + material);
-        System.out.println("Number of pillows: " + pillows);
-        System.out.println("Price: " + price);
-        System.out.println("Country: " + country);
-        System.out.println("\n");
-        return "Info about sofa";
+        return  "Sofa: " + "\n" +
+                "Firm name: " + firm + "\n" +
+                " Length: " + length + "\n" +
+                " Width: " + width + "\n" +
+                " Color: " + color + "\n" +
+                " Height: " + height + "\n" +
+                " Material: " + material + "\n" +
+                " Number of pillows: " + pillows + "\n" +
+                " Price: " + price + "\n" +
+                " Country: " + country + "\n" +
+           '}';
     }
+
     public void printStaticPillows(){
         System.out.println(" Number of pillows: " + pillows);
 
     }
+    
     public void printPillows() {
         System.out.println(" Number of pillows: " + pillows);
     }
